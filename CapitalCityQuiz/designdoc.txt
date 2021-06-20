@@ -1,0 +1,12 @@
+CCQ 
+
+Each page has a question text and four options, which are four buttons underneath. 
+If the answer is correct a global variable saves one.
+If incorrect a global variable saves one. 
+
+There is a widget at the top of each page that will show the correct and incorrect answers. 
+
+After the last question (page9) page10 will have the score, a well done, or try harder msg based 
+On the score and play again button.
+The play again button will reset the correct and incorrect variables back down to zero and take the
+User back to page1. 
