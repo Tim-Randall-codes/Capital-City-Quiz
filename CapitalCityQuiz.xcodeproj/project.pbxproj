@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5FDEAD267F70B700FCC118 /* CapitalCityQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FDEAC267F70B700FCC118 /* CapitalCityQuizApp.swift */; };
+		1A5FDEAF267F70B700FCC118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FDEAE267F70B700FCC118 /* ContentView.swift */; };
+		1A5FDEB1267F70BA00FCC118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5FDEB0267F70BA00FCC118 /* Assets.xcassets */; };
+		1A5FDEB4267F70BA00FCC118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5FDEB3267F70BA00FCC118 /* Preview Assets.xcassets */; };
+		1A5FDEBF267F70BA00FCC118 /* CapitalCityQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FDEBE267F70BA00FCC118 /* CapitalCityQuizTests.swift */; };
+		1A5FDECA267F70BA00FCC118 /* CapitalCityQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FDEC9267F70BA00FCC118 /* CapitalCityQuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5FDEBB267F70BA00FCC118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5FDEA1267F70B700FCC118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5FDEA8267F70B700FCC118;
+			remoteInfo = CapitalCityQuiz;
+		};
+		1A5FDEC6267F70BA00FCC118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5FDEA1267F70B700FCC118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5FDEA8267F70B700FCC118;
+			remoteInfo = CapitalCityQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A5FDEA9267F70B700FCC118 /* CapitalCityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapitalCityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5FDEAC267F70B700FCC118 /* CapitalCityQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCityQuizApp.swift; sourceTree = "<group>"; };
+		1A5FDEAE267F70B700FCC118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A5FDEB0267F70BA00FCC118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A5FDEB3267F70BA00FCC118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A5FDEB5267F70BA00FCC118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5FDEBA267F70BA00FCC118 /* CapitalCityQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalCityQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5FDEBE267F70BA00FCC118 /* CapitalCityQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCityQuizTests.swift; sourceTree = "<group>"; };
+		1A5FDEC0267F70BA00FCC118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5FDEC5267F70BA00FCC118 /* CapitalCityQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalCityQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5FDEC9267F70BA00FCC118 /* CapitalCityQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalCityQuizUITests.swift; sourceTree = "<group>"; };
+		1A5FDECB267F70BA00FCC118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A5FDEA6267F70B700FCC118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEB7267F70BA00FCC118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEC2267F70BA00FCC118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A5FDEA0267F70B700FCC118 = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEAB267F70B700FCC118 /* CapitalCityQuiz */,
+				1A5FDEBD267F70BA00FCC118 /* CapitalCityQuizTests */,
+				1A5FDEC8267F70BA00FCC118 /* CapitalCityQuizUITests */,
+				1A5FDEAA267F70B700FCC118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A5FDEAA267F70B700FCC118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEA9267F70B700FCC118 /* CapitalCityQuiz.app */,
+				1A5FDEBA267F70BA00FCC118 /* CapitalCityQuizTests.xctest */,
+				1A5FDEC5267F70BA00FCC118 /* CapitalCityQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A5FDEAB267F70B700FCC118 /* CapitalCityQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEAC267F70B700FCC118 /* CapitalCityQuizApp.swift */,
+				1A5FDEAE267F70B700FCC118 /* ContentView.swift */,
+				1A5FDEB0267F70BA00FCC118 /* Assets.xcassets */,
+				1A5FDEB5267F70BA00FCC118 /* Info.plist */,
+				1A5FDEB2267F70BA00FCC118 /* Preview Content */,
+			);
+			path = CapitalCityQuiz;
+			sourceTree = "<group>";
+		};
+		1A5FDEB2267F70BA00FCC118 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEB3267F70BA00FCC118 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A5FDEBD267F70BA00FCC118 /* CapitalCityQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEBE267F70BA00FCC118 /* CapitalCityQuizTests.swift */,
+				1A5FDEC0267F70BA00FCC118 /* Info.plist */,
+			);
+			path = CapitalCityQuizTests;
+			sourceTree = "<group>";
+		};
+		1A5FDEC8267F70BA00FCC118 /* CapitalCityQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FDEC9267F70BA00FCC118 /* CapitalCityQuizUITests.swift */,
+				1A5FDECB267F70BA00FCC118 /* Info.plist */,
+			);
+			path = CapitalCityQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A5FDEA8267F70B700FCC118 /* CapitalCityQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5FDECE267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuiz" */;
+			buildPhases = (
+				1A5FDEA5267F70B700FCC118 /* Sources */,
+				1A5FDEA6267F70B700FCC118 /* Frameworks */,
+				1A5FDEA7267F70B700FCC118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapitalCityQuiz;
+			productName = CapitalCityQuiz;
+			productReference = 1A5FDEA9267F70B700FCC118 /* CapitalCityQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A5FDEB9267F70BA00FCC118 /* CapitalCityQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5FDED1267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuizTests" */;
+			buildPhases = (
+				1A5FDEB6267F70BA00FCC118 /* Sources */,
+				1A5FDEB7267F70BA00FCC118 /* Frameworks */,
+				1A5FDEB8267F70BA00FCC118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5FDEBC267F70BA00FCC118 /* PBXTargetDependency */,
+			);
+			name = CapitalCityQuizTests;
+			productName = CapitalCityQuizTests;
+			productReference = 1A5FDEBA267F70BA00FCC118 /* CapitalCityQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A5FDEC4267F70BA00FCC118 /* CapitalCityQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5FDED4267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuizUITests" */;
+			buildPhases = (
+				1A5FDEC1267F70BA00FCC118 /* Sources */,
+				1A5FDEC2267F70BA00FCC118 /* Frameworks */,
+				1A5FDEC3267F70BA00FCC118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5FDEC7267F70BA00FCC118 /* PBXTargetDependency */,
+			);
+			name = CapitalCityQuizUITests;
+			productName = CapitalCityQuizUITests;
+			productReference = 1A5FDEC5267F70BA00FCC118 /* CapitalCityQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A5FDEA1267F70B700FCC118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1A5FDEA8267F70B700FCC118 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1A5FDEB9267F70BA00FCC118 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1A5FDEA8267F70B700FCC118;
+					};
+					1A5FDEC4267F70BA00FCC118 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1A5FDEA8267F70B700FCC118;
+					};
+				};
+			};
+			buildConfigurationList = 1A5FDEA4267F70B700FCC118 /* Build configuration list for PBXProject "CapitalCityQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5FDEA0267F70B700FCC118;
+			productRefGroup = 1A5FDEAA267F70B700FCC118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5FDEA8267F70B700FCC118 /* CapitalCityQuiz */,
+				1A5FDEB9267F70BA00FCC118 /* CapitalCityQuizTests */,
+				1A5FDEC4267F70BA00FCC118 /* CapitalCityQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A5FDEA7267F70B700FCC118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5FDEB4267F70BA00FCC118 /* Preview Assets.xcassets in Resources */,
+				1A5FDEB1267F70BA00FCC118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEB8267F70BA00FCC118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEC3267F70BA00FCC118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5FDEA5267F70B700FCC118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5FDEAF267F70B700FCC118 /* ContentView.swift in Sources */,
+				1A5FDEAD267F70B700FCC118 /* CapitalCityQuizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEB6267F70BA00FCC118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5FDEBF267F70BA00FCC118 /* CapitalCityQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A5FDEC1267F70BA00FCC118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5FDECA267F70BA00FCC118 /* CapitalCityQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5FDEBC267F70BA00FCC118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5FDEA8267F70B700FCC118 /* CapitalCityQuiz */;
+			targetProxy = 1A5FDEBB267F70BA00FCC118 /* PBXContainerItemProxy */;
+		};
+		1A5FDEC7267F70BA00FCC118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5FDEA8267F70B700FCC118 /* CapitalCityQuiz */;
+			targetProxy = 1A5FDEC6267F70BA00FCC118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A5FDECC267F70BA00FCC118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A5FDECD267F70BA00FCC118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A5FDECF267F70BA00FCC118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CapitalCityQuiz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CapitalCityQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A5FDED0267F70BA00FCC118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CapitalCityQuiz/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CapitalCityQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A5FDED2267F70BA00FCC118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapitalCityQuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapitalCityQuiz.app/CapitalCityQuiz";
+			};
+			name = Debug;
+		};
+		1A5FDED3267F70BA00FCC118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapitalCityQuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapitalCityQuiz.app/CapitalCityQuiz";
+			};
+			name = Release;
+		};
+		1A5FDED5267F70BA00FCC118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapitalCityQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapitalCityQuiz;
+			};
+			name = Debug;
+		};
+		1A5FDED6267F70BA00FCC118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CapitalCityQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim-Randall.CapitalCityQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CapitalCityQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5FDEA4267F70B700FCC118 /* Build configuration list for PBXProject "CapitalCityQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FDECC267F70BA00FCC118 /* Debug */,
+				1A5FDECD267F70BA00FCC118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FDECE267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FDECF267F70BA00FCC118 /* Debug */,
+				1A5FDED0267F70BA00FCC118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FDED1267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FDED2267F70BA00FCC118 /* Debug */,
+				1A5FDED3267F70BA00FCC118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FDED4267F70BA00FCC118 /* Build configuration list for PBXNativeTarget "CapitalCityQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FDED5267F70BA00FCC118 /* Debug */,
+				1A5FDED6267F70BA00FCC118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5FDEA1267F70B700FCC118 /* Project object */;
+}
