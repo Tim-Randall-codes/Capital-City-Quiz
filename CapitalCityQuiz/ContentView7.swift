@@ -10,7 +10,12 @@ import SwiftUI
 struct ContentView7: View {
     @StateObject var viewRouter: ViewRouter
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Text("Correct: \(correctAns)")
+                Text("Incorrect: \(incorrectAns)")
+            }
+        }
     }
 }
 

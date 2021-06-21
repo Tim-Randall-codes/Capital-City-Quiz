@@ -10,7 +10,35 @@ import SwiftUI
 struct ContentView5: View {
     @StateObject var viewRouter: ViewRouter
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack{
+                Text("Correct: \(correctAns)")
+                Text("Incorrect: \(incorrectAns)")
+            }
+            Text("What is the capital of England?")
+                .padding()
+            Spacer()
+            Button("London", action:{
+                correctAns += 1
+                viewRouter.currentPage = .page6
+            })
+            .padding()
+            Button("Birmingham", action:{
+                incorrectAns += 1
+                viewRouter.currentPage = .page6
+            })
+            .padding()
+            Button("Liverpool", action:{
+                incorrectAns += 1
+                viewRouter.currentPage = .page6
+            })
+            .padding()
+            Button("Manchester", action:{
+                incorrectAns += 1
+                viewRouter.currentPage = .page6
+            })
+            .padding()
+        }
     }
 }
 

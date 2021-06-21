@@ -21,3 +21,5 @@ enum Page {
 class ViewRouter: ObservableObject {
     @Published var currentPage: Page = .page1
 }
+var correctAns: Int = 0
+var incorrectAns: Int = 0
