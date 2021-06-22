@@ -15,6 +15,29 @@ struct ContentView7: View {
                 Text("Correct: \(correctAns)")
                 Text("Incorrect: \(incorrectAns)")
             }
+            Text("What is the capital of Brazil?")
+                .padding()
+            Spacer()
+            Button("Brasilia", action:{
+                viewRouter.currentPage = .page8
+                correctAns += 1
+            })
+            .padding()
+            Button("Rio de Janeiro", action:{
+                viewRouter.currentPage = .page8
+                incorrectAns += 1
+            })
+            .padding()
+            Button("Sao Paulo", action:{
+                viewRouter.currentPage = .page8
+                incorrectAns += 1
+            })
+            .padding()
+            Button("Salvador", action:{
+                viewRouter.currentPage = .page8
+                incorrectAns += 1
+            })
+            .padding()
         }
     }
 }

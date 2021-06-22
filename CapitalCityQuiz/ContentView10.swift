@@ -10,7 +10,19 @@ import SwiftUI
 struct ContentView10: View {
     @StateObject var viewRouter: ViewRouter
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("You got \(correctAns) correct and \(incorrectAns) incorrect.")
+                .padding()
+            Spacer()
+            Text(criticalView)
+            Spacer()
+            Button("Play again", action:{
+                viewRouter.currentPage = .page1
+                correctAns = 0
+                incorrectAns = 0
+            })
+            .padding()
+        }
     }
 }
 

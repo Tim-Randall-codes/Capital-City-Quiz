@@ -23,3 +23,15 @@ class ViewRouter: ObservableObject {
 }
 var correctAns: Int = 0
 var incorrectAns: Int = 0
+var criticalView: String = ""
+func crit() {
+    if correctAns < 6 {
+        criticalView = "You need to study up!"
+    }
+    else if correctAns < 9 {
+        criticalView = "Very good work, but you can always do better"
+    }
+    else {
+        criticalView = "You are a geography genius!"
+    }
+}
